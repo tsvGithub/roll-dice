@@ -23,6 +23,7 @@ const Controllers = () => {
       {/* <img src={dice_5} alt="" /> */}
       {/*dynamically rendered images */}
       <img
+        className="dice"
         src={
           dice === null
             ? //set default image
@@ -36,7 +37,6 @@ const Controllers = () => {
               // require(`../public/img/dice-${dice}.png?raw=true`).default
         }
         alt="dice"
-        className="dice"
       />
 
       <button
