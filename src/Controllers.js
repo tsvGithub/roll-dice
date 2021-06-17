@@ -19,11 +19,11 @@ const Controllers = () => {
         src={
           dice === null
             ? //set default image
-              require(`./img/dice-5.png`).default
-              // require(`../public/img/dice-5.png`).default
+              // require(`./img/dice-5.png`).default
+              require(`../public/img/dice-5.png`).default
             : //or render dynamically changed dice (context.js)
-              require(`./img/dice-${dice}.png`).default
-              // require(`../public/img/dice-${dice}.png`).default
+              // require(`./img/dice-${dice}.png`).default
+              require(`../public/img/dice-${dice}.png`).default
         }
         alt="dice"
         className="dice"
