@@ -2,7 +2,7 @@
   "name": "roll-dice",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://tsvGithub.github.io/roll-dice",
+  "homepage": "https://tsvGithub.github.io/roll-dice",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -29,7 +29,6 @@
   "browserslist": {
     "production": [
       ">0.2%",
-      "not dead",
       "not op_mini all"
     ],
     "development": [
