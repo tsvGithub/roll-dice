@@ -14,7 +14,7 @@ const Game = () => {
   const { players } = useGlobalContext();
   return (
     <div className="wrapper">
-      <h1 className="name">Roll Dice Game (rool-dice)</h1>
+      <h1 className="name">Roll Dice Game</h1>
       <Input />
 
       <main>
